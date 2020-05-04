@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="8388" started-at="2020-05-03T19:20:44Z" finished-at="2020-05-03T19:20:53Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="8000" started-at="2020-05-03T19:20:44Z" finished-at="2020-05-03T19:20:52Z">
+      <class name="learn_selenium_2.Demo11">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:learn_selenium_2.Demo11@1e88b3c]" name="setup" is-config="true" duration-ms="4012" started-at="2020-05-03T15:20:44Z" finished-at="2020-05-03T15:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:learn_selenium_2.Demo11@1e88b3c]" name="testParameterWithXML" duration-ms="3975" started-at="2020-05-03T15:20:48Z" finished-at="2020-05-03T15:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- learn_selenium_2.Demo11 -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="8388" started-at="2020-05-03T19:20:44Z" finished-at="2020-05-03T19:20:53Z">
+      <class name="learn_selenium_2.Demo11">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:learn_selenium_2.Demo11@464bee09]" name="setup" is-config="true" duration-ms="4848" started-at="2020-05-03T15:20:44Z" finished-at="2020-05-03T15:20:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:learn_selenium_2.Demo11@464bee09]" name="testParameterWithXML" duration-ms="3535" started-at="2020-05-03T15:20:49Z" finished-at="2020-05-03T15:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- learn_selenium_2.Demo11 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
